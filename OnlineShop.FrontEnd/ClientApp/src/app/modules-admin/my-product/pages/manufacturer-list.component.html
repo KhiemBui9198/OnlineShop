@@ -1,0 +1,91 @@
+
+<!--<div class="action row">
+  <div class="col-6 g-start-2">
+    <h5 >Manufacturer</h5>
+  </div>
+  <div class=" col-6 justify-content-md-end gap-2 d-md-flex mb-3">
+  <button class="btn btn-primary flex" type="button" (click)="addnewCategory()">Add new</button>
+</div>
+</div>
+<div class="justify-content-start gap-3">
+  <div class="col g-start-2 h-md-250 mb-3" *ngFor="let item of manufacturerList" >
+    <div class="card">
+      <div class="card-body">
+        <div class="row justify-content-start">
+          <div class="col-6 g-start-2">
+            <h6 class="card-title">{{item.Name}}</h6>
+          </div>
+          <div class="col-6  g-start-6 justify-content-md-end d-grid gap-2 d-md-flex">
+            <button class=" btn btn-success btn-sm" (click)="onEditCategory(item.Id)">
+              <i class="bi bi-pencil-square"></i>
+            </button>
+            <button class=" btn btn-danger btn-sm" (click)="onDeleteCategory(item.Id)">
+              <i class="bi bi-trash"></i></button>
+          </div>
+        </div>
+        <a href="#" class="card-link">{{item.Description}}</a>
+        <a href="#" class="card-link">Another link</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="bg-light rounded h-100 p-4">
+  <h6 class="mb-4">Manufacturer</h6>
+  <table class="table table-borderless">
+      <thead>
+          <tr>
+              <th scope="col">ID</th>
+              <th scope="col">Name</th>
+              <th scope="col">Description</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr *ngFor="let item of manufacturerList">
+              <th >{{item.Id}}</th>
+              <td>{{item.Name}}</td>
+              <td>{{item.Description}}</td>
+          </tr>
+      </tbody>
+  </table>
+</div>-->
+<div>
+  <div class="bg-light text-center rounded p-4">
+      <div class="d-flex align-items-center justify-content-between mb-4">
+          <h6 class="mb-0">Manufacturer</h6>
+          <div class="d-flex align-items-center justify-content-between mb-4 gap-3">
+              <button class="btn btn-primary flex" type="button" (click)="addnewCategory()">Add</button>
+              <button class="btn btn-primary"><i class="bi bi-box-arrow-up-right"></i></button>
+          </div>
+       
+      </div>
+      <div class="table-responsive ">
+          <table class="table text-start table-borderless table-hover mb-0">
+              <thead>
+                  <tr class="text-dark">
+                      <th scope="col"><input class="form-check-input" type="checkbox"></th>
+                      <th scope="col">ID</th>
+                      <th scope="col">Name</th>
+                      <th scope="col">Description</th>
+                  </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let item of manufacturerList">
+                  <td><input class="form-check-input" type="checkbox"></td>
+                    <th >{{item.Id}}</th>
+                    <td>{{item.Name}}</td>
+                    <td>{{item.Description}}</td>
+                    <td>
+                      <div class="col-6  g-start-6 justify-content-md-end d-grid gap-2 d-md-flex">
+                        <button class=" btn btn-success btn-sm" (click)="onEditCategory(item.Id)">
+                          <i class="bi bi-pencil-square"></i>
+                        </button>
+                        <button class=" btn btn-danger btn-sm" (click)="onDeleteCategory(item.Id)">
+                          <i class="bi bi-trash"></i></button>
+                      </div>
+                    </td>
+                </tr>
+            </tbody>
+          </table>
+      </div>
+  </div>
+</div>

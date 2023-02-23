@@ -1,0 +1,12 @@
+<nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                        type="button" role="tab" aria-controls="nav-profile" aria-selected="false"
+                        *ngFor="let link of navLinks" [routerLink]="[link.link]" routerLinkActive>
+                        <div class="title"> {{link.label}}</div>
+                </button>
+        </div>
+</nav>
+<div class="main-content">
+        <router-outlet></router-outlet>
+</div>

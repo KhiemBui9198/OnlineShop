@@ -1,0 +1,15 @@
+C:\Data\Angular_Example\Net6_Angular\OnlineShop.DTO\bin\Debug\net6.0\OnlineShop.DTO.exe
+C:\Data\Angular_Example\Net6_Angular\OnlineShop.DTO\bin\Debug\net6.0\OnlineShop.DTO.deps.json
+C:\Data\Angular_Example\Net6_Angular\OnlineShop.DTO\bin\Debug\net6.0\OnlineShop.DTO.runtimeconfig.json
+C:\Data\Angular_Example\Net6_Angular\OnlineShop.DTO\bin\Debug\net6.0\OnlineShop.DTO.dll
+C:\Data\Angular_Example\Net6_Angular\OnlineShop.DTO\bin\Debug\net6.0\OnlineShop.DTO.pdb
+C:\Data\Angular_Example\Net6_Angular\OnlineShop.DTO\obj\Debug\net6.0\OnlineShop.DTO.csproj.AssemblyReference.cache
+C:\Data\Angular_Example\Net6_Angular\OnlineShop.DTO\obj\Debug\net6.0\OnlineShop.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Data\Angular_Example\Net6_Angular\OnlineShop.DTO\obj\Debug\net6.0\OnlineShop.DTO.AssemblyInfoInputs.cache
+C:\Data\Angular_Example\Net6_Angular\OnlineShop.DTO\obj\Debug\net6.0\OnlineShop.DTO.AssemblyInfo.cs
+C:\Data\Angular_Example\Net6_Angular\OnlineShop.DTO\obj\Debug\net6.0\OnlineShop.DTO.csproj.CoreCompileInputs.cache
+C:\Data\Angular_Example\Net6_Angular\OnlineShop.DTO\obj\Debug\net6.0\OnlineShop.DTO.dll
+C:\Data\Angular_Example\Net6_Angular\OnlineShop.DTO\obj\Debug\net6.0\refint\OnlineShop.DTO.dll
+C:\Data\Angular_Example\Net6_Angular\OnlineShop.DTO\obj\Debug\net6.0\OnlineShop.DTO.pdb
+C:\Data\Angular_Example\Net6_Angular\OnlineShop.DTO\obj\Debug\net6.0\OnlineShop.DTO.genruntimeconfig.cache
+C:\Data\Angular_Example\Net6_Angular\OnlineShop.DTO\obj\Debug\net6.0\ref\OnlineShop.DTO.dll

@@ -1,0 +1,17 @@
+<div class="container-fluid gap-2 ">
+  <div class="row g-4" >
+<ul class="nav nav-pills bg-light">
+  <li class="nav-item" *ngFor="let link of navLinks" [routerLink]="[link.link]" routerLinkActive >
+    <a class="nav-link" aria-current="page">{{link.label}}</a>
+  </li>
+</ul>
+<div class="content h-100 bg-light p-4" >
+  <div class="row ">
+    <div class="col-sm-12 col-xl-12 h-100">
+      <div class="">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div> 
+ </div>
+</div>

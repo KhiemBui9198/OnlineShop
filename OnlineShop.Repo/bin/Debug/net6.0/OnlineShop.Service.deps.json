@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "OnlineShop.Service/1.0.0": {
+        "dependencies": {
+          "OnlineShop.DTO": "1.0.0",
+          "OnlineShop.Data": "1.0.0"
+        },
+        "runtime": {
+          "OnlineShop.Service.dll": {}
+        }
+      },
+      "OnlineShop.Data/1.0.0": {
+        "runtime": {
+          "OnlineShop.Data.dll": {}
+        }
+      },
+      "OnlineShop.DTO/1.0.0": {
+        "runtime": {
+          "OnlineShop.DTO.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OnlineShop.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OnlineShop.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OnlineShop.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,97 @@
+<!--<div class="action row">
+  <div class="col-6 g-start-2">
+    <h5 >Shop</h5>
+  </div>
+  <div class=" col-6 justify-content-md-end gap-2 d-md-flex mb-3">
+  <button class="btn btn-primary flex" type="button" (click)="onAddShop()">Add new</button>
+</div>
+</div>
+  <div class="gap-3 justify-content-start">
+    <div class="col g-start-2 h-md-250 mb-3 " *ngFor="let item of shopData">
+      <div class="card">
+        <div class="card-body">
+          <div class="row justify-content-start">
+            <div class="col-6 g-start-2">
+              <h6 class="card-title">{{item.Name}}</h6>
+              <h6 class="card-title">{{item.Address}}</h6>
+            </div>
+            <div class="col-6  justify-content-md-end d-grid gap-2 d-md-flex">
+              <button class=" btn btn-success btn-sm" (click)="onEditShop(item.Id)">
+                <i class="bi bi-pencil-square"></i>
+              </button>
+              <button class=" btn btn-danger btn-sm" (click)="onDeleteShop(item.Id)">
+                <i class="bi bi-trash"></i></button>
+            </div>
+          </div>    
+        </div>
+      </div>
+    </div>-->
+<div class="bg-light text-center content p-4 h-100">
+  <div class="d-flex align-items-center justify-content-between mb-4">
+    <h6 class="mb-0">Shop</h6>
+    <div class="d-flex align-items-center justify-content-between mb-4 gap-3">
+      <button class="btn btn-primary flex" type="button" (click)="onAddShop()">Add</button>
+      <button class="btn btn-primary"><i class="bi bi-box-arrow-up-right"></i></button>
+    </div>
+
+  </div>
+  <div class="table-responsive ">
+    <!--<table class="table text-start table-borderless table-hover mb-0">
+                  <thead>
+                      <tr class="text-dark">
+                          <th scope="col"><input class="form-check-input" type="checkbox"></th>
+                          <th scope="col">ID</th>
+                          <th scope="col">Name</th>
+                          <th scope="col">Description</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                    <tr *ngFor="let item of shopData">
+                      <td><input class="form-check-input" type="checkbox"></td>
+                        <th >{{item.Id}}</th>
+                        <td>{{item.Name}}</td>
+                        <td>{{item.Description}}</td>
+                        <td>
+                          <div class="col-6  g-start-6 justify-content-md-end d-grid gap-2 d-md-flex">
+                            <button class=" btn btn-success btn-sm" (click)="onEditShop(item.Id)">
+                              <i class="bi bi-pencil-square"></i>
+                            </button>
+                            <button class=" btn btn-danger btn-sm" (click)="onDeleteShop(item.Id)">
+                              <i class="bi bi-trash"></i></button>
+                          </div>
+                        </td>
+                    </tr>
+                </tbody>
+              </table>-->
+    <div class="bg-light rounded h-100 p-4" *ngFor="let item of shopData">
+
+      <dl class="row mb-0">
+        <dd class="col-sm-4 text-center">
+          <div class="col-6 text-end  g-start-6 d-grid gap-2 d-md-flex">
+            <button class=" btn btn-success btn-sm" (click)="onEditShop(item.Id)">
+              <i class="bi bi-pencil-square"></i>
+            </button>
+            <button class=" btn btn-danger btn-sm" (click)="onDeleteShop(item.Id)">
+              <i class="bi bi-trash"></i></button>
+          </div>
+        </dd>
+        <dt class="col-sm-8 text-start"></dt>
+        <dt class="col-sm-4 text-start">Name</dt>
+        <dd class="col-sm-8 text-start">{{item.Name}}</dd>
+
+        <dt class="col-sm-4 text-start">Address</dt>
+        <dd class="col-sm-8 text-start">{{item.Address}}</dd>
+
+        <dt class="col-sm-4 text-start">Open time</dt>
+        <dd class="col-sm-8 text-start">{{item.OpenTime}}</dd>
+
+        <dt class="col-sm-4  text-start">Phone</dt>
+        <dd class="col-sm-8 text-start">{{item.Phone}}</dd>
+
+        <dt class="col-sm-4  text-start">Email</dt>
+        <dd class="col-sm-8 text-start">{{item.Email}}</dd>
+
+      </dl>
+    </div>
+  </div>
+</div>

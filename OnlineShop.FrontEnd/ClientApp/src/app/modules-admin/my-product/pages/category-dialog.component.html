@@ -1,0 +1,33 @@
+
+<div class="content" >
+<div class="modal-header ">
+    <h4 class="modal-title" id="modal-basic-title">Category</h4>
+    <button type="button" class=" btn btn-outline-danger btn-sm" aria-label="Close" (click)="onCancel()">
+      <i class="bi bi-x-lg"></i>
+    </button>
+  </div>
+
+  <div class="modal-body  d-grid gap-2">  
+    <form [formGroup]="categoryForm">
+        <div class="form-group mb-3" >
+          <label for="name">Name</label>
+          <input type="text" class="form-control"  formControlName="name" placeholder="ame" required>
+        </div>
+        <div class="form-group mb-3">
+          <label for="sortOrder">Sort oder</label>
+          <input type="number" class="form-control"   placeholder="Number"  formControlName="sortOrder" required>
+        </div>
+      <div class="form-group mb-3 gap-2">
+        <input class="form-check-input" type="checkbox" formControlName="isShowOnHome">
+        <label class="form-check-label" for="isShowOnHome">
+          Show on home
+        </label>
+      </div>
+    </form>
+  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+    <button type="submit" class=" btn btn-danger btn-action" (click)="onCancel()">Cancel</button>
+    <button type="submit" class=" btn btn-primary btn-action" (click)="onSubmitForm()" [disabled]="!categoryForm.valid">Submit</button>
+  </div>
+  </div>
+</div>
+     

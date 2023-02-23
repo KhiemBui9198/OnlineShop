@@ -1,0 +1,13 @@
+<div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">{{model.Title}}</h4>
+    <button type="button" class=" btn btn-outline-danger btn-sm" aria-label="Close" (click)="onCancel()">
+      <i class="bi bi-x-lg"></i>
+    </button>
+  </div>
+  <div class="modal-body">  
+	<h6>{{model.Content}}</h6>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+      <button type="submit" class=" btn btn-danger btn-action" (click)="onCancel()">{{model.txtNo}}</button>
+      <button type="submit" class=" btn btn-primary btn-action" (click)="onOk()">{{model.txtYes}}</button>
+    </div>
+  </div>

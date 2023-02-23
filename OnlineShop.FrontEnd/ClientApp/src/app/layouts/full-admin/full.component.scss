@@ -1,0 +1,17 @@
+.content {
+    margin-left: 60px;
+    transition: 0.3s;
+    height: 100%;
+    &.sidebarExpanded {
+      margin-left: 200px;
+    }
+  }
+  .row{
+    div
+    {
+    padding: none !important;}
+  }
+.header-view{
+  position: fixed;
+}
+  

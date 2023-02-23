@@ -1,0 +1,31 @@
+<div class="content">
+  <div class="d-flex align-items-center justify-content-between mb-4">
+    <h6 class="mb-0">Profile Details</h6>
+    <div class="d-flex flex-row-reverse mb-4">
+    <button class="btn btn-primary flex" type="button" (click)="onEditProfile()" >Edit Profile</button>
+</div>
+</div>
+
+  <dl class="row mb-0">
+    <dd class="col-sm-4 text-center">
+    </dd>
+    <dt class="col-sm-8 text-start"></dt>
+    <dt class="col-sm-4 text-start">Full Name</dt>
+    <dd class="col-sm-8 text-start">{{userInfor.LastName}}, {{userInfor.FirstName}}</dd>
+
+    <dt class="col-sm-4 text-start">Phone</dt>
+    <dd class="col-sm-8 text-start">{{userInfor.PhoneNumber}}</dd>
+
+    <dt class="col-sm-4 text-start">User name</dt>
+    <dd class="col-sm-8 text-start">{{userInfor.UserName}}</dd>
+
+   <dt class="col-sm-4  text-start">Email</dt>
+    <dd class="col-sm-8 text-start">{{userInfor.Email}}</dd>
+
+    <dt class="col-sm-4  text-start">Status</dt>
+    <dd class="col-sm-8 text-start">Phone</dd>
+
+ 
+
+  </dl>
+</div>

@@ -1,0 +1,23 @@
+<div class="notifications">
+	<div *ngFor="let notification of notifications" class="notification" [ngClass]="className(notification)">
+		<ng-container *ngTemplateOutlet="notificationTpl;context:{notification:notification}"></ng-container>
+	</div>
+</div>
+
+
+	<ng-template #notificationTpl let-notification="notification" class=" overlay">
+		<div class="title" fxLayout="row" fxLayoutAlign="space-between center ">
+			<div class="d-flex align-items-center justify-content-between p-1">
+				<div>{{notification.title}}</div>
+				<div class="d-flex align-items-center justify-content-between mb-4 gap-3"> <button type="button"
+						class=" btn btn-outline-light btn-sm" (click)="close(notification)"
+						matTooltip="Close the notification" matTooltipPosition="before">
+						<i class="bi bi-x-lg"></i>
+					</button>
+				</div>
+			</div>
+		</div>
+
+	<div class="message">{{notification.message}}</div>
+
+</ng-template>

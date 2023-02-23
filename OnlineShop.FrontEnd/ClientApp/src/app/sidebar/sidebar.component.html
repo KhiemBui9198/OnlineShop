@@ -1,0 +1,21 @@
+<div class="sidebar" [ngClass]="{ 'expanded': isExpanded }">
+        <div class="header">
+          <h1 class="title">
+          </h1>
+          <div class="toggle" (click)="handleSidebarToggle()">
+            <button class=" btn btn-outline-primary btn-sm">
+            <i class="bi bi-list-task"></i></button>
+          </div>
+        </div>
+        <div class="content">
+          <div class="link"*ngFor="let link of navLinks" [routerLink]="[link.link]" routerLinkActive >
+            <div class="content" >
+              <div class="icon">
+                <i class="bi" [ngClass]="[link.icon]"></i>
+              </div>
+              <div class="title" [hidden]="!isExpanded" > {{link.label}}</div>
+            </div>
+          </div>
+        </div>
+        <div class="footer"></div>
+      </div>

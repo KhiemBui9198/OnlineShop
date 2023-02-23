@@ -1,0 +1,15 @@
+C:\Data\Angular_Example\Net6_Angular\OnlineShop.Data\bin\Debug\net6.0\OnlineShop.Data.exe
+C:\Data\Angular_Example\Net6_Angular\OnlineShop.Data\bin\Debug\net6.0\OnlineShop.Data.deps.json
+C:\Data\Angular_Example\Net6_Angular\OnlineShop.Data\bin\Debug\net6.0\OnlineShop.Data.runtimeconfig.json
+C:\Data\Angular_Example\Net6_Angular\OnlineShop.Data\bin\Debug\net6.0\OnlineShop.Data.dll
+C:\Data\Angular_Example\Net6_Angular\OnlineShop.Data\bin\Debug\net6.0\OnlineShop.Data.pdb
+C:\Data\Angular_Example\Net6_Angular\OnlineShop.Data\obj\Debug\net6.0\OnlineShop.Data.csproj.AssemblyReference.cache
+C:\Data\Angular_Example\Net6_Angular\OnlineShop.Data\obj\Debug\net6.0\OnlineShop.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Data\Angular_Example\Net6_Angular\OnlineShop.Data\obj\Debug\net6.0\OnlineShop.Data.AssemblyInfoInputs.cache
+C:\Data\Angular_Example\Net6_Angular\OnlineShop.Data\obj\Debug\net6.0\OnlineShop.Data.AssemblyInfo.cs
+C:\Data\Angular_Example\Net6_Angular\OnlineShop.Data\obj\Debug\net6.0\OnlineShop.Data.csproj.CoreCompileInputs.cache
+C:\Data\Angular_Example\Net6_Angular\OnlineShop.Data\obj\Debug\net6.0\OnlineShop.Data.dll
+C:\Data\Angular_Example\Net6_Angular\OnlineShop.Data\obj\Debug\net6.0\refint\OnlineShop.Data.dll
+C:\Data\Angular_Example\Net6_Angular\OnlineShop.Data\obj\Debug\net6.0\OnlineShop.Data.pdb
+C:\Data\Angular_Example\Net6_Angular\OnlineShop.Data\obj\Debug\net6.0\OnlineShop.Data.genruntimeconfig.cache
+C:\Data\Angular_Example\Net6_Angular\OnlineShop.Data\obj\Debug\net6.0\ref\OnlineShop.Data.dll

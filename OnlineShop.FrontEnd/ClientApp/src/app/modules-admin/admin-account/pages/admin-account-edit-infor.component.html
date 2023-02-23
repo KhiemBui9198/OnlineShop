@@ -1,0 +1,66 @@
+<div class="content">
+  <div class="d-flex align-items-center justify-content-between mb-4">
+    <h6 class="mb-0">Edit information</h6>
+  </div>
+
+  <!-- Form Start -->
+  <div class="container-fluid px-4">
+    <div class="row g-4">
+      <div class="col-sm-12 col-xl-6">
+        <div class="bg-light rounded h-100">
+          <h6 class="mb-4">{{title}}</h6>
+          <form [formGroup]="userForm">
+            <div class="row mb-3">
+              <label for="inputEmail3" class="col-sm-3 col-form-label">First Name</label>
+              <div class="col-sm-9">
+                <input type="text" formControlName="FirstName" class="form-control" id="inputEmail3">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="inputPassword3" class="col-sm-3 col-form-label">Last name</label>
+              <div class="col-sm-9">
+                <input type="text" formControlName="LastName" class="form-control" id="inputPassword3">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="inputPassword3" class="col-sm-3 col-form-label">Phone number</label>
+              <div class="col-sm-9">
+                <input type="phone" formControlName="PhoneNumber" class="form-control" id="inputPassword3">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="inputPassword3" class="col-sm-3 col-form-label">Email</label>
+              <div class="col-sm-9">
+                <input type="email" formControlName="Email" class="form-control" id="inputPassword3">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="inputPassword3" class="col-sm-3 col-form-label">User name</label>
+              <div class="col-sm-9">
+                <input type="text" formControlName="UserName" class="form-control" id="inputPassword3">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="inputPassword3" class="col-sm-3 col-form-label">Password</label>
+              <div class="col-sm-9">
+                <input type="password" formControlName="Password" class="form-control" id="inputPassword3">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="inputPassword3" class="col-sm-3 col-form-label">ConfirmPassword</label>
+              <div class="col-sm-9">
+                <input type="password" formControlName="ConfirmPassword" class="form-control" id="inputPassword3">
+              </div>
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+      <div class="col-sm-12 col-xl-6" [hidden]="isCreateNew">
+        <div class="bg-light rounded h-100 ">
+          <h6 class="mb-4">Avatar</h6>
+        </div>
+      </div>
+    </div>
+  </div> <button type="submit" class="btn btn-primary" (click)="onSubmit()">Save</button>
